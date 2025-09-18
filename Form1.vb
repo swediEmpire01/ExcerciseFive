@@ -10,7 +10,7 @@
         'created variables to use 
         'i will use inch to calculate as default and convert to foot when displaying
 
-        Dim volumeFt, volumeYrd, depth As Decimal
+        Dim volumeFt, volumeYrd, depth, concreteCost As Decimal
 
         depth = 4
 
@@ -29,10 +29,14 @@
                 volumeFt = (length * depth * width)
                 volumeYrd = (length * depth * width) / 3 ^ 3
 
+                'calculates the cost of the concrete
+                concreteCost = 80 * volumeYrd
+
                 'the new values are now assigned on the window fom
 
                 volumeCu.Text = volumeFt.ToString("0.00") & " cu. Ft "
                 volumeYds.Text = volumeYrd.ToString("0.00") & " cu. Yds"
+                costOfConcrete.Text = "$ " & concreteCost.ToString("0.00")
 
 
                 'this checks if the foot value was chechked
@@ -44,10 +48,14 @@
                 volumeFt = (length * depth * width)
                 volumeYrd = (length * depth * width) / 3 ^ 3
 
+                'calculates the cost of the concrete
+                concreteCost = 80 * volumeYrd
+
                 'the new values are now assigned on the window fom
 
                 volumeCu.Text = volumeFt.ToString("0.00") & " cu. Ft "
                 volumeYds.Text = volumeYrd.ToString("0.00") & " cu. Yds"
+                costOfConcrete.Text = "$ " & concreteCost.ToString("0.00")
 
             Else
 
@@ -67,6 +75,7 @@
         volumeYds.Text = " 0.00 cu. Yds"
         inchCheck.Checked = False
         footCheck.Checked = False
+        costOfConcrete.Text = "$ 0.00"
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

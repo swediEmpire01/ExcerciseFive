@@ -44,7 +44,7 @@ Partial Class Form1
         'lengthInput
         '
         Me.lengthInput.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lengthInput.Location = New System.Drawing.Point(361, 125)
+        Me.lengthInput.Location = New System.Drawing.Point(369, 158)
         Me.lengthInput.Name = "lengthInput"
         Me.lengthInput.Size = New System.Drawing.Size(100, 30)
         Me.lengthInput.TabIndex = 2
@@ -52,7 +52,7 @@ Partial Class Form1
         'widthInput
         '
         Me.widthInput.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.widthInput.Location = New System.Drawing.Point(361, 209)
+        Me.widthInput.Location = New System.Drawing.Point(369, 242)
         Me.widthInput.Name = "widthInput"
         Me.widthInput.Size = New System.Drawing.Size(100, 30)
         Me.widthInput.TabIndex = 3
@@ -62,7 +62,7 @@ Partial Class Form1
         Me.inputText.AllowDrop = True
         Me.inputText.AutoSize = True
         Me.inputText.Font = New System.Drawing.Font("Arial", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.inputText.Location = New System.Drawing.Point(39, 91)
+        Me.inputText.Location = New System.Drawing.Point(47, 124)
         Me.inputText.Name = "inputText"
         Me.inputText.Size = New System.Drawing.Size(101, 33)
         Me.inputText.TabIndex = 4
@@ -72,7 +72,7 @@ Partial Class Form1
         '
         Me.lengthInputText.AutoSize = True
         Me.lengthInputText.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lengthInputText.Location = New System.Drawing.Point(357, 91)
+        Me.lengthInputText.Location = New System.Drawing.Point(365, 124)
         Me.lengthInputText.Name = "lengthInputText"
         Me.lengthInputText.Size = New System.Drawing.Size(68, 22)
         Me.lengthInputText.TabIndex = 5
@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.widthInputText.AutoSize = True
         Me.widthInputText.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.widthInputText.Location = New System.Drawing.Point(357, 175)
+        Me.widthInputText.Location = New System.Drawing.Point(365, 208)
         Me.widthInputText.Name = "widthInputText"
         Me.widthInputText.Size = New System.Drawing.Size(59, 22)
         Me.widthInputText.TabIndex = 6
@@ -94,7 +94,7 @@ Partial Class Form1
         Me.typeText.AllowDrop = True
         Me.typeText.AutoSize = True
         Me.typeText.Font = New System.Drawing.Font("Arial", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.typeText.Location = New System.Drawing.Point(39, 268)
+        Me.typeText.Location = New System.Drawing.Point(47, 301)
         Me.typeText.Name = "typeText"
         Me.typeText.Size = New System.Drawing.Size(98, 33)
         Me.typeText.TabIndex = 12
@@ -104,7 +104,7 @@ Partial Class Form1
         '
         Me.inchCheck.AutoSize = True
         Me.inchCheck.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.inchCheck.Location = New System.Drawing.Point(361, 275)
+        Me.inchCheck.Location = New System.Drawing.Point(369, 308)
         Me.inchCheck.Name = "inchCheck"
         Me.inchCheck.Size = New System.Drawing.Size(62, 26)
         Me.inchCheck.TabIndex = 13
@@ -115,7 +115,7 @@ Partial Class Form1
         '
         Me.footCheck.AutoSize = True
         Me.footCheck.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.footCheck.Location = New System.Drawing.Point(477, 275)
+        Me.footCheck.Location = New System.Drawing.Point(485, 308)
         Me.footCheck.Name = "footCheck"
         Me.footCheck.Size = New System.Drawing.Size(61, 26)
         Me.footCheck.TabIndex = 14
@@ -138,7 +138,7 @@ Partial Class Form1
         Me.volumeText.AllowDrop = True
         Me.volumeText.AutoSize = True
         Me.volumeText.Font = New System.Drawing.Font("Arial", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.volumeText.Location = New System.Drawing.Point(39, 471)
+        Me.volumeText.Location = New System.Drawing.Point(47, 504)
         Me.volumeText.Name = "volumeText"
         Me.volumeText.Size = New System.Drawing.Size(149, 33)
         Me.volumeText.TabIndex = 16
@@ -146,59 +146,65 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(80, Byte), Integer))
         Me.Button1.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(45, 355)
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button1.Location = New System.Drawing.Point(53, 388)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(152, 63)
         Me.Button1.TabIndex = 17
         Me.Button1.Text = "Calculate"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(82, Byte), Integer))
         Me.Button2.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(237, 355)
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button2.Location = New System.Drawing.Point(245, 388)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(130, 63)
         Me.Button2.TabIndex = 18
         Me.Button2.Text = "Clear"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(200, Byte), Integer))
         Me.Button3.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(410, 355)
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button3.Location = New System.Drawing.Point(418, 388)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(135, 63)
         Me.Button3.TabIndex = 19
         Me.Button3.Text = "Quit"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'volumeCu
         '
         Me.volumeCu.AutoSize = True
         Me.volumeCu.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.volumeCu.Location = New System.Drawing.Point(433, 474)
+        Me.volumeCu.Location = New System.Drawing.Point(441, 507)
         Me.volumeCu.Name = "volumeCu"
-        Me.volumeCu.Size = New System.Drawing.Size(93, 24)
+        Me.volumeCu.Size = New System.Drawing.Size(121, 24)
         Me.volumeCu.TabIndex = 20
-        Me.volumeCu.Text = " 0 cu. Ft "
+        Me.volumeCu.Text = " 0.00 cu. Ft "
         '
         'volumeYds
         '
         Me.volumeYds.AutoSize = True
         Me.volumeYds.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.volumeYds.Location = New System.Drawing.Point(433, 527)
+        Me.volumeYds.Location = New System.Drawing.Point(441, 560)
         Me.volumeYds.Name = "volumeYds"
-        Me.volumeYds.Size = New System.Drawing.Size(104, 24)
+        Me.volumeYds.Size = New System.Drawing.Size(132, 24)
         Me.volumeYds.TabIndex = 21
-        Me.volumeYds.Text = " 0 cu. Yds"
+        Me.volumeYds.Text = " 0.00 cu. Yds"
         '
         'costOfConcrete
         '
         Me.costOfConcrete.AutoSize = True
         Me.costOfConcrete.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.costOfConcrete.Location = New System.Drawing.Point(433, 590)
+        Me.costOfConcrete.Location = New System.Drawing.Point(441, 623)
         Me.costOfConcrete.Name = "costOfConcrete"
         Me.costOfConcrete.Size = New System.Drawing.Size(60, 24)
         Me.costOfConcrete.TabIndex = 23
@@ -209,7 +215,7 @@ Partial Class Form1
         Me.costOfConcreteText.AllowDrop = True
         Me.costOfConcreteText.AutoSize = True
         Me.costOfConcreteText.Font = New System.Drawing.Font("Arial", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.costOfConcreteText.Location = New System.Drawing.Point(39, 587)
+        Me.costOfConcreteText.Location = New System.Drawing.Point(47, 620)
         Me.costOfConcreteText.Name = "costOfConcreteText"
         Me.costOfConcreteText.Size = New System.Drawing.Size(262, 33)
         Me.costOfConcreteText.TabIndex = 22
@@ -219,7 +225,8 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(596, 692)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(612, 692)
         Me.Controls.Add(Me.costOfConcrete)
         Me.Controls.Add(Me.costOfConcreteText)
         Me.Controls.Add(Me.volumeYds)
